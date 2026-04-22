@@ -1,0 +1,90 @@
+/* styles.css */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #009688, #4caf50);
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background: #00695c;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+nav a:hover {
+  background: #009688;
+}
+
+.section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+
+.section.alt {
+  background: #ffffffcc;
+  border-radius: 10px;
+}
+
+.main-img {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 15px;
+  margin: 15px 0;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: white;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #009688;
+  color: white;
+  margin-top: 20px;
+}
